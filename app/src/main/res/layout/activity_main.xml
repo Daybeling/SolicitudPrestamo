@@ -163,6 +163,13 @@
         android:inputType="textPersonName"
         android:text="" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTINUAR"
+        android:layout_margin="10dp"
+
+        android:layout_gravity="right"/>
 
 
 </LinearLayout>
