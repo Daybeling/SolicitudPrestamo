@@ -114,6 +114,54 @@
             android:inputType="phone" />
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/Cedula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cedula*"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/editTextCedula"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/Ocupacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ocupacion"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/editTextOcupacion"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/Direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direccion*"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/editTextDireccion"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
 
 
 
