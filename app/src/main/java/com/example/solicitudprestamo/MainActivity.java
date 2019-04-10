@@ -30,14 +30,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View v){
-        EditText nombre = findViewById(R.id.editTextNombre);
+
+        EditText nombre = findViewById(R.id.editTextNombre); //obtenemos el valor
         String cNombre = nombre.getEditableText().toString();
-        EditText telefono = findViewById(R.id.editTextTelefono);
+
+        EditText telefono = findViewById(R.id.editTextTelefono); //obtenemos el valor
         String cTelefono = telefono.getEditableText().toString();
-        EditText cedula = findViewById(R.id.editTextCedula);
+
+        EditText cedula = findViewById(R.id.editTextCedula); //obtenemos el valor
         String cCedula = cedula.getEditableText().toString();
-        EditText direccion = findViewById(R.id.editTextDireccion);
+
+        EditText direccion = findViewById(R.id.editTextDireccion); //obtenemos el valor
         String cDireccion = direccion.getEditableText().toString();
+
+
         if(cNombre.isEmpty()){
             nombre.setError("campo obligatorio");
         }
