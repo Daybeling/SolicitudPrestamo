@@ -165,7 +165,7 @@
         />
 
     <Button
-        android:layout_width="120"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="CONTINUAR"
         android:layout_marginTop="130dp"

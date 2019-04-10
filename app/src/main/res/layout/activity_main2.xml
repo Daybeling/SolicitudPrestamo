@@ -70,7 +70,7 @@
             android:inputType="number" />
 
         <Spinner
-            android:id="@+id/spinnerInterez"
+            android:id="@+id/spinnerInteres"
             android:layout_width="134dp"
             android:layout_height="wrap_content" />
 
